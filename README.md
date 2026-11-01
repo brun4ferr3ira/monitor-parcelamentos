@@ -81,7 +81,7 @@ EMAIL_DESTINATARIOS=gestor1@exemplo.com,gestor2@exemplo.com
 
 ### Agendamento diário (9h)
 
-O programa não se agenda sozinho. Use o Agendador de Tarefas do Windows (gatilho diário às 9h) ou o cron no Linux/Mac:
+O programa não se agenda sozinho. Usei o Agendador de Tarefas do Windows (gatilho diário às 9h):
 
 ```
 0 9 * * 1-5 cd /caminho/do/projeto && python monitor_parcelamentos.py --hoje --enviar
