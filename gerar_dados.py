@@ -36,7 +36,7 @@ def gerar_cnpj():
 def fmt_cnpj(n):
     return f"{n[:2]}.{n[2:5]}.{n[5:8]}/{n[8:12]}-{n[12:]}"
 
-PASTA = Path("dados")
+PASTA = Path(".")
 DATA_REFERENCIA = date(2026, 10, 31)
 LIMITES = {"Federal": (1, 2, 3, 4), "Estadual": (1, 2, 3, 4), "Municipal": (1, 2, 3, 4)}
 
