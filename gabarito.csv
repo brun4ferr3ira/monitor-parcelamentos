@@ -1,0 +1,22 @@
+id_parcelamento,ambito,parcelas_pagas,parcelas_faltantes,parcelas_vencidas,parcelas_em_atraso,nivel_esperado,proxima_parcela,acao_esperada
+PARC-FED-2026-001,Federal,8,22,8,0,em_dia,2026-11-01,Nenhuma ação
+PARC-FED-2026-002,Federal,5,9,6,1,atencao,2026-10-15,Regularizar a parcela em atraso
+PARC-FED-2026-003,Federal,7,20,9,2,alerta,2026-09-15,Regularizar as parcelas em atraso com prioridade
+PARC-FED-2026-004,Federal,4,17,7,3,urgencia,2026-08-15,"Pagar já: se a próxima parcela vencer sem pagamento, o parcelamento é rompido"
+PARC-FED-2026-005,Federal,2,27,6,4,rompido,2026-07-01,Parcelamento rompido: verificar situação e possibilidade de reparcelamento
+PARC-FED-2026-006,Federal,6,0,6,0,quitado,,Parcelamento quitado
+PARC-FED-2026-007,Federal,0,24,0,0,em_dia,2026-12-28,Nenhuma ação
+PARC-EST-2026-001,Estadual,7,14,7,0,em_dia,2026-11-10,Nenhuma ação
+PARC-EST-2026-002,Estadual,8,10,9,1,atencao,2026-10-28,Regularizar a parcela em atraso
+PARC-EST-2026-003,Estadual,6,15,8,2,alerta,2026-09-15,Regularizar as parcelas em atraso com prioridade
+PARC-EST-2026-004,Estadual,4,27,7,3,urgencia,2026-08-10,"Pagar já: se a próxima parcela vencer sem pagamento, o parcelamento é rompido"
+PARC-EST-2026-005,Estadual,5,36,9,4,rompido,2026-07-15,Parcelamento rompido: verificar situação e possibilidade de reparcelamento
+PARC-EST-2026-006,Estadual,6,0,6,0,quitado,,Parcelamento quitado
+PARC-EST-2026-007,Estadual,0,24,0,0,em_dia,2026-11-15,Nenhuma ação
+PARC-MUN-2026-001,Municipal,7,28,7,0,em_dia,2026-11-20,Nenhuma ação
+PARC-MUN-2026-002,Municipal,9,13,10,1,atencao,2026-10-15,Regularizar a parcela em atraso
+PARC-MUN-2026-003,Municipal,4,12,6,2,alerta,2026-09-28,Regularizar as parcelas em atraso com prioridade
+PARC-MUN-2026-004,Municipal,4,15,7,3,urgencia,2026-08-20,"Pagar já: se a próxima parcela vencer sem pagamento, o parcelamento é rompido"
+PARC-MUN-2026-005,Municipal,5,22,9,4,rompido,2026-07-01,Parcelamento rompido: verificar situação e possibilidade de reparcelamento
+PARC-MUN-2026-006,Municipal,6,0,6,0,quitado,,Parcelamento quitado
+PARC-MUN-2026-007,Municipal,0,24,0,0,em_dia,2026-11-10,Nenhuma ação
