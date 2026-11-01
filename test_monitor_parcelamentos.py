@@ -5,7 +5,7 @@ from pathlib import Path
 
 import monitor_parcelamentos as mp
 
-PASTA = Path("dados")
+PASTA = Path(".")
 
 
 class TestParcelasVencidas(unittest.TestCase):
