@@ -2,7 +2,7 @@
 
 Programa em Python que lê a planilha de controle de parcelamentos, calcula quais estão em risco de rompimento e monta **um e-mail diário consolidado**, com todos os parcelamentos agrupados por gravidade.
 
-Esse foi o meu primeiro projeto em uma empresa. Eu era jovem aprendiz ainda e levei cerca de 2 meses para deixá-lo perfeito para rodar. Repliquei esse projeto utilizando dados fictícios para que eu o mostrasse aqui. Na época, eu economizei cerca de 2h por dia com essa automação. Espero que gostem!
+Este foi o meu primeiro projeto dentro de uma empresa, quando eu ainda era jovem aprendiz. Levei cerca de 2 meses para colocá-lo em funcionamento e, na época, ele me poupava cerca de 2 horas por dia. Aqui eu refiz o projeto com dados fictícios para poder mostrá-lo, usando IA como apoio para escrever o código.
 
 > Projeto de portfólio com **dados 100% fictícios**. Reproduz, de forma limpa e segura, uma rotina de compliance fiscal que automatizei na prática.
 
@@ -83,7 +83,7 @@ EMAIL_DESTINATARIOS=gestor1@exemplo.com,gestor2@exemplo.com
 
 ### Agendamento diário (9h)
 
-O programa não se agenda sozinho. Usei o Agendador de Tarefas do Windows (gatilho diário às 9h):
+O programa não se agenda sozinho. Na empresa, usei o Agendador de Tarefas do Windows, com gatilho diário às 9h. Neste repositório o agendamento não está configurado; no Linux ou Mac, o equivalente é esta linha no cron:
 
 ```
 0 9 * * 1-5 cd /caminho/do/projeto && python monitor_parcelamentos.py --hoje --enviar
