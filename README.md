@@ -39,10 +39,9 @@ monitor-parcelamentos/
 ├── monitor_parcelamentos.py        # programa principal
 ├── test_monitor_parcelamentos.py   # testes automatizados
 ├── gerar_dados.py                  # gera os dados fictícios
-├── dados/
-│   ├── parcelamentos.xlsx          # planilha de controle (fictícia)
-│   └── gabarito.csv                # resultado esperado, usado nos testes
-├── docs/                           # exemplo do e-mail gerado
+├── parcelamentos.xlsx              # planilha de controle (fictícia)
+├── gabarito.csv                    # resultado esperado, usado nos testes
+├── exemplo_email.png               # exemplo do e-mail gerado
 └── requirements.txt
 ```
 
