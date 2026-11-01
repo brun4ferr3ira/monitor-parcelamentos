@@ -4,7 +4,7 @@ Programa em Python que lê a planilha de controle de parcelamentos, calcula quai
 
 > Projeto de portfólio com **dados 100% fictícios**. Reproduz, de forma limpa e segura, uma rotina de compliance fiscal que automatizei na prática.
 
-![Exemplo do e-mail gerado](docs/exemplo_email.png)
+![Exemplo do e-mail gerado](exemplo_email.png)
 
 ## O problema
 
