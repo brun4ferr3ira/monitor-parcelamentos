@@ -19,7 +19,7 @@ from pathlib import Path
 
 from openpyxl import load_workbook
 
-PLANILHA_PADRAO = Path("dados/parcelamentos.xlsx")
+PLANILHA_PADRAO = Path("parcelamentos.xlsx")
 PASTA_SAIDA = Path("saida")
 ARQUIVO_ESTADO = PASTA_SAIDA / "estado_ultimo_envio.json"
 
