@@ -1,7 +1,8 @@
 # Monitor de Parcelamentos Tributários
 
 Programa em Python que lê a planilha de controle de parcelamentos, calcula quais estão em risco de rompimento e monta **um e-mail diário consolidado**, com todos os parcelamentos agrupados por gravidade.
-Esse foi o meu primeiro projeto em uma empresa, quando era jovem aprendiz ainda, repliquei esse projeto utilizando dados fictícios para que viabilizasse eu trazer esse projeto aqui. Espero que gostem!
+
+Esse foi o meu primeiro projeto em uma empresa. Eu era jovem aprendiz ainda e levei cerca de 2 meses para deixá-lo perfeito para rodar. Repliquei esse projeto utilizando dados fictícios para que eu o mostrasse aqui. Na época, eu economizei cerca de 2h por dia com essa automação. Espero que gostem!
 
 > Projeto de portfólio com **dados 100% fictícios**. Reproduz, de forma limpa e segura, uma rotina de compliance fiscal que automatizei na prática.
 
